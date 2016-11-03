@@ -11,9 +11,9 @@ function createWindow () {
   win = new BrowserWindow({
 		title: 'File name shortener',
 		frame: true,
-		width: 400, 
+		width: 420,
 		height: 300,
-		minWidth: 400,
+		minWidth: 420,
 		minHeight: 300,
 	})
 
@@ -34,6 +34,8 @@ function createWindow () {
     // when you should delete the corresponding element.
     win = null
   })
+
+  win.setMenu(null)
 }
 
 // This method will be called when Electron has finished

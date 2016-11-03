@@ -1,4 +1,4 @@
-collar.enableDevtool();
+// collar.enableDevtool();
 
 const ns = collar.ns('com.collarjs.example.filename-shortener');
 
@@ -123,9 +123,9 @@ shortenFilenamePipeline
 	})
 	.actuator('shorten file name', function (signal, done) {
 		shorten.shortenFilename(
-			signal.get('path'), 
+			signal.get('path'),
 			signal.get('name'),
-			lengthLimit, done);	
+			lengthLimit, done);
 	})
 	.map('prepare "file name shortened" msg', function (signal) {
 		return signal.new({
@@ -162,5 +162,3 @@ shortenFilenamePipeline
 input.push({
 	msg: 'init app'
 });
-
-

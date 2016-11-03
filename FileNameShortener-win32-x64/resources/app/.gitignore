@@ -1,0 +1,6 @@
+node_modules
+*.swp
+.DS_Store
+filenameshortener-darwin-x64
+filenameshortener-linux-ia32
+
