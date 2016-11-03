@@ -17,3 +17,27 @@ Note: the file extension will not be changed!
 
 see the following flow
 ![flow](https://github.com/bhou/collar.js-example-filenameshortener/blob/master/filenameshortener-flow.jpg)
+
+## Installation
+```
+git clone https://github.com/bhou/collar.js-example-filenameshortener.git
+```
+
+```
+npm install
+```
+
+## start the app
+```
+npm run start
+```
+
+## package it to native app
+for macos
+```
+npm run package-macos
+```
+for windows
+```
+npm run package-win
+```
