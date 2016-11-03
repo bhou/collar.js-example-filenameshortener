@@ -4,7 +4,10 @@
   "description": "A gui application to shorten the file name",
   "main": "main.js",
   "scripts": {
-    "start": "node_modules/.bin/electron ."
+    "start": "node_modules/.bin/electron .",
+		"package-macos": "node_modules/electron-packager/cli.js . FileNameShortener --platform=darwin --overwrite",
+		"package-win": "node_modules/electron-packager/cli.js . FileNameShortener --platform=win32 --overwrite"
+
   },
   "repository": {
     "type": "git",
