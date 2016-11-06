@@ -1,4 +1,4 @@
-// collar.enableDevtool();
+collar.enableDevtool();
 
 const ns = collar.ns('com.collarjs.example.filename-shortener');
 

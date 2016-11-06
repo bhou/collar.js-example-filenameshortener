@@ -5,9 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "node_modules/.bin/electron .",
-		"package-macos": "node_modules/electron-packager/cli.js . FileNameShortener --platform=darwin --overwrite",
-		"package-win": "node node_modules/electron-packager/cli.js . FileNameShortener --platform=win32 --overwrite"
-
+    "package-macos": "node_modules/electron-packager/cli.js . FileNameShortener --platform=darwin --overwrite",
+    "package-win": "node node_modules/electron-packager/cli.js . FileNameShortener --platform=win32 --overwrite"
   },
   "repository": {
     "type": "git",
