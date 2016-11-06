@@ -16,7 +16,7 @@ Note: the file extension will not be changed!
 ## How it works?
 
 see the following flow
-![flow](https://github.com/bhou/collar.js-example-filenameshortener/blob/master/filenameshortener-flow.jpg)
+![flow](https://github.com/bhou/collar.js-example-filenameshortener/blob/master/filenameshortener-thought-4.png)
 
 To check the living flow:
 
